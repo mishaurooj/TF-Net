@@ -51,7 +51,7 @@ TF-Net consists of **four main blocks**:
 4. **Head**: Multi-scale anchor-based detection  
 
 <div align="center">  
-  <img src="aaf16ddd-a06a-403c-94c5-816dcc4f1838.png" width="600"/>  
+  <img src="./figures/tfnet.png" width="600"/>  
   <p><em>Proposed TF-Net architecture</em></p>  
 </div>  
 
@@ -85,12 +85,12 @@ TF-Net consists of **four main blocks**:
 ### Graphical Results  
 
 <div align="center">  
-  <img src="results_precision_recall.png" width="450"/>  
+  <img src="./figures/results_precision_recall.png" width="450"/>  
   <p><em>Precision and Recall trends across epochs</em></p>  
 </div>  
 
 <div align="center">  
-  <img src="results_map_iou.png" width="450"/>  
+  <img src="./figures/results_map_iou.png" width="450"/>  
   <p><em>mAP@0.5 and IoU comparison with YOLOv5 models</em></p>  
 </div>  
 
@@ -103,7 +103,7 @@ TF-Net consists of **four main blocks**:
 - ✅ Achieves **98 FPS** inference speed on Tesla T4 GPU  
 
 <div align="center">  
-  <img src="sample_detections.png" width="600"/>  
+  <img src="./figures/sample_detections.png" width="600"/>  
   <p><em>Sample detections on IR UAV dataset under challenging conditions</em></p>  
 </div>  
 
