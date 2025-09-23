@@ -111,20 +111,12 @@ TF-Net consists of **four main blocks**:
 
 ## 🚀 Reproduction  
 
-1. Clone repository:  
-```bash
-git clone https://github.com/your-username/TF-Net-UAV-Detection.git
-cd TF-Net-UAV-Detection
+1. Download dataset from Roboflow: https://app.roboflow.com/tfnet-night-vision/mul/4
 
-2. Install dependencies:
-pip install -r requirements.txt
-
-3. Download dataset from Roboflow: https://app.roboflow.com/tfnet-night-vision/mul/4
-
-4. Train TF-Net:
+2. Train TF-Net:
 python train.py --img 416 --batch 16 --epochs 300 --data data.yaml --cfg tfnet.yaml --weights ''
 
-5.Run inference:
+3.Run inference:
 python detect.py --weights runs/train/exp/weights/best.pt --img 416 --source data/test/images
 
 ##📜 Citation
@@ -139,6 +131,3 @@ If you use this work, please cite:
   year={2023},
   publisher={Springer}
 }
-
-📌Acknowledgments
-This work was supported by the Higher Education Commission (HEC), Pakistan under the NRPU 2021 Grant 15687.
